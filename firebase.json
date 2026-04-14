@@ -1,1 +1,30 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"flutter-web-rtc-with-call-kit","appId":"1:309166316358:android:730f6323e466f578cb6347","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"flutter-web-rtc-with-call-kit","appId":"1:309166316358:ios:82abc9e8a7185af6cb6347","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"flutter-web-rtc-with-call-kit","configurations":{"android":"1:309166316358:android:730f6323e466f578cb6347","ios":"1:309166316358:ios:82abc9e8a7185af6cb6347"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "test-webrtc-icarion",
+          "appId": "1:175241404915:android:2c8d3d3243fe35b30ef286",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "test-webrtc-icarion",
+          "appId": "1:175241404915:ios:bd505e543a14e5210ef286",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "test-webrtc-icarion",
+          "configurations": {
+            "android": "1:175241404915:android:2c8d3d3243fe35b30ef286",
+            "ios": "1:175241404915:ios:bd505e543a14e5210ef286"
+          }
+        }
+      }
+    }
+  }
+}

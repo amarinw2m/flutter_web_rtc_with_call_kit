@@ -3,16 +3,18 @@ import 'dart:convert';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_web_rtc_with_call_kit/firebase_options.dart';
 
 import 'core/utils/common_imports.dart';
 import 'core/utils/fcm_helper.dart';
 import 'features/data/model/user.dart';
 import 'features/presentation/bloc/auth_bloc/auth_bloc.dart';
-import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await FCMHelper.init();
   await initInjector();
   runApp(const MyApp());

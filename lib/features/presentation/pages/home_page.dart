@@ -116,6 +116,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           case Event.actionCallCustom:
             // Handle this case.
             break;
+          default:
+            break;
         }
         if (callback != null) {
           callback(event.toString());

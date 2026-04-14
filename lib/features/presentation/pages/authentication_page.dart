@@ -21,14 +21,6 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              height: 200,
-              width: 200,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-              ),
-              child: Image.asset(AppAssets.mindInventory),
-            ),
             const Text(
               'New Here?',
               style: TextStyle(

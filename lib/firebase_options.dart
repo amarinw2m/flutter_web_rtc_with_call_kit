@@ -4,16 +4,6 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-/// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -50,19 +40,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCc2Std4FenjF0jkwi6dOlqoHdlYIKcVcg',
-    appId: '1:309166316358:android:730f6323e466f578cb6347',
-    messagingSenderId: '309166316358',
-    projectId: 'flutter-web-rtc-with-call-kit',
-    storageBucket: 'flutter-web-rtc-with-call-kit.firebasestorage.app',
+    apiKey: 'AIzaSyBz4cKVxNsZSM3mZ6inkG-Xx2hsSmIvDZ0',
+    appId: '1:175241404915:android:2c8d3d3243fe35b30ef286',
+    messagingSenderId: '175241404915',
+    projectId: 'test-webrtc-icarion',
+    storageBucket: 'test-webrtc-icarion.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBxAd63W-bYspj2uF5Gbac0N2w5obEgCOk',
-    appId: '1:309166316358:ios:82abc9e8a7185af6cb6347',
-    messagingSenderId: '309166316358',
-    projectId: 'flutter-web-rtc-with-call-kit',
-    storageBucket: 'flutter-web-rtc-with-call-kit.firebasestorage.app',
+    apiKey: 'AIzaSyBmsBV-d_El1xkAXq7--8cIsQL6o89xH1k',
+    appId: '1:175241404915:ios:bd505e543a14e5210ef286',
+    messagingSenderId: '175241404915',
+    projectId: 'test-webrtc-icarion',
+    storageBucket: 'test-webrtc-icarion.firebasestorage.app',
     iosBundleId: 'com.example.flutterWebRtcWithCallKit',
   );
 }

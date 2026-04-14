@@ -32,7 +32,7 @@ Future<void> _onBackgroundMessage(RemoteMessage message) async {
 class FCMHelper {
   static FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
 
-  static final String projectId = 'flutter-web-rtc-with-call-kit';
+  static final String projectId = 'test-webrtc-icarion';
   static final String sendNotificationURL =
       'https://fcm.googleapis.com/v1/projects/$projectId/messages:send';
   static final String verifyFcmTokenURL =
